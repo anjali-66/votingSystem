@@ -1,0 +1,22 @@
+{
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "@opentelemetry/exporter-prometheus": "^0.44.0",
+    "@opentelemetry/sdk-metrics": "^1.17.1",
+    "express": "^4.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "name": "nftmarketplace",
+  "version": "1.0.0",
+  "workspaces": [
+    "smartwalletcustomconnectproj"
+  ],
+  "description": "BlockConvey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anjali sharma",
+  "license": "ISC"
+}
